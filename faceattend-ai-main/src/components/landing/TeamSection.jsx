@@ -19,7 +19,7 @@ const TEAM = [
     avatar: "WA",
     color:  "#00f5ff",
     tags:   ["React", "FastAPI", "YOLOv8", "Node.js"],
-    github: "#",
+    github: "https://github.com/WASIYA-123/FaceAttend-AI",
     linkedin: "#",
   },
   {
