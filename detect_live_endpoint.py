@@ -1,4 +1,4 @@
-# ─── Add this to your FastAPI AI server (the one running on port 8000) ─────
+# ─── FastAPI AI server for FaceAttend AI live camera detection ─────────────
 #
 # It receives a single JPEG frame from the browser webcam (sent by
 # AIScannerCard.jsx on the landing page) and returns YOLOv8 face boxes.
@@ -20,7 +20,7 @@ import io
 
 app = FastAPI()
 
-# ── CORS: allow your Vite dev server / Vercel deployment to call this ──────
+# ── CORS: allow your deployed frontend to call this from any device ────────
 app.add_middleware(
     CORSMiddleware,
     # allow_origins=["*"] is safe here because this endpoint doesn't use
@@ -74,6 +74,4 @@ async def detect_live(file: UploadFile = File(...)):
     return JSONResponse({"faces": faces})
 
 
-# ── Run with: uvicorn detect_live_endpoint:app --reload --port 8000 ────────
-# (Or merge this route into your existing FastAPI app instead of running
-#  it standalone — just copy the /detect/live route + CORS config over.)
+# ── Run locally with: uvicorn detect_live_endpoint:app --reload --port 8000
