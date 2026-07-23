@@ -124,7 +124,7 @@ export default function HeroSection() {
 
             <OutlineButton
               onClick={() =>
-                window.open("https://github.com/WASIYA-123/FaceAttend-AI", "_blank")
+                window.open("https://github.com/probalti/faceattend-ai-camera", "_blank")
               }
               className="px-7 py-3 rounded-xl text-[13px]"
             >

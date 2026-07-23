@@ -8,7 +8,7 @@ import DividerLine   from "@/components/ui/DividerLine";
 import { LANDING_NAV } from "@/constants/navLinks";
 
 const SOCIALS = [
-  { icon: <Icons.Github   className="w-4 h-4" />, href: "https://github.com/WASIYA-123/FaceAttend-AI", label: "GitHub"   },
+  { icon: <Icons.Github   className="w-4 h-4" />, href: "https://github.com/probalti/faceattend-ai-camera", label: "GitHub"   },
   { icon: <Icons.Twitter  className="w-4 h-4" />, href: "#", label: "Twitter"  },
   { icon: <Icons.Linkedin className="w-4 h-4" />, href: "#", label: "LinkedIn" },
   { icon: <Icons.Mail     className="w-4 h-4" />, href: "#", label: "Email"    },

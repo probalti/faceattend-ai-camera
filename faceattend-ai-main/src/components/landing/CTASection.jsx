@@ -85,7 +85,7 @@ export default function CTASection() {
 
             <OutlineButton
               onClick={() =>
-                window.open("https://github.com/WASIYA-123/FaceAttend-AI", "_blank")
+                window.open("https://github.com/probalti/faceattend-ai-camera", "_blank")
               }
               className="px-8 py-3.5 rounded-xl text-[14px]"
             >
